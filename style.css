@@ -3,6 +3,7 @@
   padding:0;
   box-sizing:border-box;
 }
+
 body {
     width: 100%;
     height: 800px;
@@ -13,6 +14,7 @@ body {
     justify-content:space-between;
     align-items:center;
 }
+
 body p {
     color: white;
     display: flex;
@@ -20,6 +22,7 @@ body p {
     padding: 40px 20px;
    
 }
+
 .titulo {
     width: 100%;
     height: 50px;
@@ -29,6 +32,7 @@ body p {
     justify-content: space-around;
     align-items: center;
 }
+
 .logo {
     width: 50px;
     height: 50px;
@@ -47,11 +51,13 @@ body p {
     justify-content: flex-end;
     align-items: center;
 }
+
 .search img {
     width: 10%;
     height: 20px;
     margin-right: 10px;
 }
+
 .promo {
     width: 40%;
     height: 40px;
@@ -61,14 +67,38 @@ body p {
     align-items: center;
     color: white;
 }
+
 .promo img {
     width: 200px;
     height: 30px;    
 }
+
 .navegacao {
     width: 100%;
     height: 30px;
     background: rgb(218, 94, 22);
+  
+}
+
+.navegacao a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.navegacao a:hover {
+    color: rgb(110, 10, 10);
+    transform: translateY(-3px);
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    color: white;  
 }
 
 .produtos {
@@ -82,6 +112,7 @@ body p {
     justify-content: space-around;
     align-items: center;
 }
+
 .produtos .item {
     width: 30%;
     height: 350px;
@@ -93,16 +124,20 @@ body p {
     justify-content: center;
     align-items: center;
 }
+
 .item img {
     width: 200px;
     height: 180px;
     background: white;
 }
+
+
 .item p {
     color: rgb(71, 32, 32);
     font-size: 20px;
     font-weight: bold;
 }
+
 .produtos p {
     color: rgb(71, 32, 32);
     font-size: 20px;
@@ -111,6 +146,7 @@ body p {
     justify-content: flex-start;
     padding: 0px 20px;
 }
+
 .destaques {
     width: 100%;
     height: 300px;
@@ -135,6 +171,7 @@ body p {
     justify-content: center;
     align-items: center;
 }
+
 .destaques .item img {
     width: 180px;
     height: 160px;
@@ -151,14 +188,6 @@ body p {
     align-items: center;
 }
 
-ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    list-style: none;
-    color: white
-}
 .footer .contato {
     width: 40%;
     height: 60px;
@@ -168,6 +197,7 @@ ul {
     justify-content: space-around;
     align-items: center;
 }
+
 button{
   width:31%;
   padding: 10px 20px;
@@ -176,6 +206,7 @@ button{
   color:white;
   cursor: pointer;
 }
+
 button:hover{
   background: rgb(218, 94, 22);
   transform: translateY(5px);
