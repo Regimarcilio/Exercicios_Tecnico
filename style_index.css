@@ -32,6 +32,7 @@ body p {
     width: 100%;
     height: 50px;
     background: rgb(171, 182, 16);
+    padding-top: -20px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -51,6 +52,10 @@ body.dark-mode .destaques{
 }
 
 body.dark-mode .footer {
+    background: rgb(50, 30, 30);
+}
+
+body.dark-mode button{
     background: rgb(50, 30, 30);
 }
 
@@ -166,7 +171,7 @@ ul {
     padding: 0px 20px;
 }
 
-.produtos .item button{
+button{
   width:31%;
   padding: 10px 20px;
   border-radius:10px;
@@ -175,7 +180,7 @@ ul {
   cursor: pointer;
 }
 
-.produtos .item button:hover{
+button:hover{
   background: rgb(218, 94, 22);
   transform: translateY(5px);
   box-shadow: 0 10px 20px rgba(0,0,0,0.2);
@@ -211,23 +216,6 @@ ul {
     height: 160px;
     padding: 0px 40px;
     padding-bottom: 40px;
-}
-
-.destaques .item button{
-  width:31%;
-  padding: 10px 20px;
-  border-radius:10px;
-  background: rgb(172, 134, 9);
-  border-color: none;
-  color:white;
-  cursor: pointer;
-}
-
- .destaques .item button:hover{
-  background: rgb(218, 94, 22);
-  border-color: none;
-  transform: translateY(5px);
-  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 }
 
 .footer {
