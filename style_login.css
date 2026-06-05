@@ -71,7 +71,7 @@ body{
     font-weight: bold;
     cursor: pointer;
 }   
-.fundo button{
+button{
     width: 120px;
     height: 50px;
     padding: 10px 20px;
@@ -79,6 +79,14 @@ body{
     background: rgb(172, 134, 9);
     color:white;
     cursor: pointer;
+}
+
+button:hover{
+    background: #333;
+    color:white;
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+
 }
 
 form{
