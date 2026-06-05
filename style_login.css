@@ -4,211 +4,92 @@
   box-sizing:border-box;
 }
 
-body {
+body{
     width: 100%;
-    height: 800px;
+    height: 600px;
     background: rgb(171, 182, 16);
     font-family: 'arial' 'sans-serif';
     display:flex; 
-    flex-direction:column;
-    justify-content:space-between;
+    justify-content:center;
     align-items:center;
 }
 
-body p {
-    color: white;
-    display: flex;
-    justify-content: flex-start;
-    padding: 40px 20px;
-   
-}
-
-.titulo {
-    width: 100%;
-    height: 50px;
-    background: rgb(171, 182, 16);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.logo {
-    width: 50px;
-    height: 50px;
-    background: black;
-    color:white;
-    display: flex;
-    justify-content:center;
-    align-items: center;
-}
-
-.search {
-    width: 40%;
-    height: 30px;
-    background: white;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-.search img {
-    width: 10%;
-    height: 20px;
-    margin-right: 10px;
-}
-
-.promo {
-    width: 40%;
-    height: 40px;
-    background: purple;
-    display: flex;
+.fundo{
+    display: flex;  
+    flex-direction:row;
     justify-content: center;
     align-items: center;
-    color: white;
-}
-
-.promo img {
-    width: 200px;
-    height: 30px;    
-}
-
-.navegacao {
-    width: 100%;
-    height: 30px;
-    background: rgb(218, 94, 22);
+    border-color: solid black 2px;
+    gap: 20px;
   
 }
 
-.navegacao a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 16px;
-}
-
-.navegacao a:hover {
-    color: rgb(110, 10, 10);
-    transform: translateY(-3px);
-}
-
-ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    list-style: none;
-    color: white;  
-}
-
-.produtos {
-    width: 100%;
+.bemVindo{
+    width: 60%;
     height: 400px;
-    background: rgb(171, 182, 16);
-    white-space: nowrap;
-    padding-top: 15px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.produtos .item {
-    width: 30%;
-    height: 350px;
-    background: white;
-    border:solid orange 2px;
+    background: rgb(91, 116, 91);
     border-radius: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.item img {
-    width: 200px;
-    height: 180px;
-    background: white;
-}
-
-
-.item p {
-    color: rgb(71, 32, 32);
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.produtos p {
-    color: rgb(71, 32, 32);
-    font-size: 20px;
-    font-weight: bold;
     display:flex;
-    justify-content: flex-start;
-    padding: 0px 20px;
-}
-
-.destaques {
-    width: 100%;
-    height: 300px;
-    white-space: nowrap;
-    background: rgb(171, 182, 16);
-    /*border:solid orange 2px;*/
-    padding-bottom: 15px;
-    display: flex;
-    flex-direction: row;
+    flex-direction:column;
     justify-content: space-around;
     align-items: center;
+
 }
 
-.destaques .item {
-    width: 20%;
-    height: 250px;
-    background:white;
-    border:solid orange 2px;
+.acessar{
+    width: 60%;
+    height: 400px;
+    background: rgb(219, 230, 219);
     border-radius: 15px;
-    display: flex;
-    flex-direction: column;
+    gap: 10px;
+    display:flex;
+    flex-direction:column;
     justify-content: center;
     align-items: center;
 }
-
-.destaques .item img {
-    width: 180px;
-    height: 160px;
-    padding: 0px 40px;
+.acessar p{
+    padding-bottom: 20px;
+    color:grey;
+    font-size: 20px;
 }
-.footer {
-    width: 100%;
-    height: 80px;
-    background: rgb(218, 94, 22);
-    padding: 5% 10%;
+.social {
+    list-style-type: none; 
+    padding: 0;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+    gap: 5px;
 }
 
-.footer .contato {
-    width: 40%;
-    height: 60px;
-    background: lightgrey;
+.social li {
+    width: 50px;   
+    height: 50px; 
+    background-color: #333; 
+    color: white; 
+    border-radius: 50%; 
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: center; 
+    align-items: center;      
+    font-weight: bold;
+}   
+.fundo button{
+    width: 120px;
+    height: 50px;
+    padding: 10px 20px;
+    border-radius:10px;
+    background: rgb(172, 134, 9);
+    color:white;
+    cursor: pointer;
 }
 
-button{
-  width:31%;
-  padding: 10px 20px;
-  border-radius:10px;
-  background: rgb(172, 134, 9);
-  color:white;
-  cursor: pointer;
+form{
+    display:flex;
+    flex-direction:column;
+    gap: 10px 20px; 
 }
 
-button:hover{
-  background: rgb(218, 94, 22);
-  transform: translateY(5px);
-  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+input{
+    width: 300px;
+    height: 40px;
+    padding: 10px 20px;
+    border-radius:10px;
+    border: solid black 2px;
 }
