@@ -1,36 +1,99 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-     <link rel="stylesheet" href="style_login.css">
+    <title>HTML + CSS + JavaScript — Exercícios Avaliativos</title>
+    <link rel="stylesheet" href="style_index.css">
+    
 </head>
+
 <body>
-    <div class="fundo">
-        <div class="bemVindo">
-            <h1>Seja bem Vindo</h1>
-            <p>Para conectar-se em sua conta, por favor entre com seus dados pessoais</p>
-            <button class="entre">ACESSAR</button>
+    <div class="titulo">
+        <div class="logo">
+            <p>Logo aqui</p>
         </div>
-        <div class="acessar">
-            <h1>Crie sua conta</h1>
-            <ul>
-                <li>f</li>
-                <li>G+</li>
-                <li>in</li>
-            </ul>
-            <p>Ou use seu email para acessar</p>
-            <form id="acessar">
-                <input type="text" id="nome"  placeholder="Ex Reginaldo Marcilio">
-                    <span id="erro-nome"></span>
-                <input type="text" id="email"  placeholder="Email Válido">
-                    <span id="erro-email"></span>
-                <input type="password" id="senha"  placeholder="Insira sua Senha">
-                    <span id="erro-senha"></span>
-            </form>
-            <button class="acessar">ENTRE</button>
-        </div>  
+        <p style="color: white; font-size: 20px;">A melhor loja do Sul</p>
+        <div class="search"><img src="https://imgs.search.brave.com/w7ng1YAS_h-T-ni0s-qGYVWokDeMYnSsii6ZSdE_ocg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdDIu/ZGVwb3NpdHBob3Rv/cy5jb20vNjYyODc5/Mi85NjMxL3YvNDUw/L2RlcG9zaXRwaG90/b3NfOTYzMTc3NDgt/c3RvY2staWxsdXN0/cmF0aW9uLW1hZ25p/Zmllci1zZWFyY2gt/aWNvbi5qcGc" alt=""></div>
+        <div class="promo"><img src="https://i.ibb.co/CpXTy229/ghaefdhahaehae.jpg"></div>
+        
+        <div class="login">
+            <a href="login.html">LOGIN</a>
+        </div>
     </div>
+    <div class="navegacao">
+        <ul>
+            <li>
+                <a href="https://lista.mercadolivre.com.br/monitor-gamer">MONITORES</a>
+            </li>
+            <li>
+                <a href="https://lista.mercadolivre.com.br/teclado-gamer">TECLADOS</a>
+            </li>
+            <li>
+                <a href="https://lista.mercadolivre.com.br/mouse-gamer">MOUSE</a>
+            </li>
+            <li>
+                <a href="https://lista.mercadolivre.com.br/headset-gamer">HEADSET</a>
+            </li>
+            <li>
+                <a href="https://lista.mercadolivre.com.br/cadeira-gamer">CADEIRAS</a>
+            </li>
+            
+        </ul>
+    </div>
+    <div class="produtos">
+
+        <div class="item"><p>Monitor Gamer 27" 144Hz</p>
+            <img src="https://imgs.search.brave.com/rgBwOejeBjuLrGyeD1ElzdQj60vbm1TLA-YTnk0R8Dw/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWdz/LmNhc2FzYmFoaWEu/Y29tLmJyLzE1Nzkw/NjAyNjQvMXhnLmpw/Zw" alt="Produto 1">
+            <h1 style="color: rgb(71, 32, 32); font-size: 20px;">R$1250,00</h1>
+            <button class="comprar">Comprar</button>
+        </div>
+
+        <div class="item"><p>Mouse Gamer RGB 16000DPI</p>
+            <img src="https://imgs.search.brave.com/49KIUcO7AnOF8UmvOMGs_U2yuGl_pC5VqO4LvAYAr5E/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWcu/ZW5kZ2FtZWdlYXIu/Y29tL2ltYWdlcy9H/QU1PLTEyOTMvYzUy/OGQ1NTllYTA0NGQ2/YmUzNmYyMzJjNmZm/YzI4MzEuanBn" alt="Produto 2">
+            <h1 style="color: rgb(71, 32, 32); font-size: 20px;">R$899,99</h1>
+            <button class="comprar">Comprar</button>
+        </div>
+
+        <div class="item"><p>Headset Gamer 7.1</p>
+            <img src="https://imgs.search.brave.com/oGFkrn0X_Zhjflt8HI9GEGR3dS2K5rYS-rlO45TUsR8/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wNTcv/NDM2Lzk2OS9zbWFs/bC9iZWF1dGlmdWwt/cnVzdGljLWdhbWlu/Zy1rZXlib2FyZC1t/ZWNoYW5pY2FsLWJs/YWNrLWlzb2xhdGVk/LW9uLXRyYW5zcGFy/ZW50LWJhY2tncm91/bmQtZGV0YWlsZWQt/cG5nLnBuZw" alt="Produto 3">
+            <h1 style="color: rgb(71, 32, 32); font-size: 20px;">R$499,99</h1>
+            <button class="comprar">Comprar</button>
+        </div>
+    </div>
+    <p style="color: white; font-size: 20px; text-align: center; margin-top: 20px;">DESTAQUES DA SEMANA</p>   
+
+    <div class="destaques">
+        <div class="item"><p>Monitor Gamer Mancer  20"</p>
+            <img src="https://down-br.img.susercontent.com/file/br-11134207-820lu-mm26rb2oo5xja4.webp" alt="Produto 1">
+            <h1 style="color: rgb(71, 32, 32); font-size: 20px;">R$1250,00</h1>
+            <button class="melhorCompra" id="melhorCompra1">Comprar</button>
+        </div>
+        
+        <div class="item"><p>Teclado Gamer SuperFrame</p>
+            <img src="https://img.terabyteshop.com.br/produto/g/teclado-gamer-superframe-ribbon-wireless-rgb-switch-red-75-abnt2-hot-swap-blackgrey_254048.jpg" alt="Produto 1">
+            <h1 style="color: rgb(71, 32, 32); font-size: 20px;">R$1250,00</h1>
+            <button class="melhorCompra" id="melhorCompra2">Comprar</button>
+        </div>    
+        
+        <div class="item"><p>PC Gamer Pichau Fenrir II</p>
+            <img src="https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/p/c/pc-narok-v2-gpu-m-1_18.jpg" alt="Produto 1">
+            <h1 style="color: rgb(71, 32, 32); font-size: 20px;">R$4550,00</h1>
+            <button class="melhorCompra" id="melhorCompra3">Comprar</button>
+        </div>    
+        
+        <div class="item"><p> AMD Ryzen 5 5500 3.6GHz</p>
+            <img src="https://img.terabyteshop.com.br/produto/g/processador-amd-ryzen-5-5500-36ghz-42ghz-turbo-6-cores-12-threads-cooler-wraith-stealth-am4-100-100000457box_138946.jpg" alt="Produto 1">
+            <h1 style="color: rgb(71, 32, 32); font-size: 20px;">R$1250,00</h1>
+            <button class="melhorCompra" id="melhorCompra4">Comprar</button>
+        </div>           
+    </div>
+
+    <div class="footer">
+        <p>2026 Minha Loja. Todos os direitos reservados.</p>
+        <p>Whatsapp: (47) 99713-6647</p>
+    </div>  
+    <script src="script_index.js"></script>
 </body>
 </html>
